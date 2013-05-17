@@ -80,6 +80,6 @@ Response: {"status":"successful"} or {"status":"failure"}
 ## Contributor
 
 * Md. Maksud Alam Chowdhury <mc65799@gmail.com>
-Department of Computer Science & Engineering
-Bangladesh University of Engineering & Technology
+* Department of Computer Science & Engineering
+* Bangladesh University of Engineering & Technology
 
