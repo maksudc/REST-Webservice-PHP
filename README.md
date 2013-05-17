@@ -10,7 +10,7 @@ One can easily understand the purpose of a webservice by simply looking at the u
 ## BASIC REST Description
 
 
-*method: GET
+* method: GET
 link::  http://www.localhost.com/items
 
 returns all the items in database.
@@ -18,7 +18,7 @@ returns all the items in database.
 Response: {["id":"",...],[...],[..]}
 
 
-*method: GET
+* method: GET
 link:: http://www.localhost.com/items/3
 
 returns 3rd item in database
@@ -26,7 +26,7 @@ returns 3rd item in database
 Response: {"id":3,"name":"dsf"}
 
 
-*method: POST
+* method: POST
 link:: http://www.localhost.com/item
 
 Would create a new Item into database 
@@ -34,7 +34,7 @@ Would create a new Item into database
 Response: {"status":"successful"}
 
 
-*method: PUT
+* method: PUT
 link:: http://www.localhost.com/item
 
 Would update an Item into database 
@@ -42,7 +42,7 @@ Would update an Item into database
 Response: {"status":"successful"}
 
 
-*method: DELETE
+* method: DELETE
 link:: http://www.localhost.com/item
 
 Would delete an Item from database 
@@ -52,11 +52,11 @@ Response: {"status":"successful"}
 
 ## Example
 
-*Method: GET 
+* Method: GET 
 link: http://localhost.com/get.php?id=2
 Response: {"id":"2","name":"idibosh","address":"asdsd","email":"idibosh@gmail.com"}
 
-*Method: POST
+* Method: POST
 link: http://localhost.com/post.php
 
 curl command: curl -X POST http://localhost.com/post.php -d name=Myname -d address=MyAddress -d email=MyEmail
@@ -64,13 +64,13 @@ curl command: curl -X POST http://localhost.com/post.php -d name=Myname -d addre
 Response: {"status":"successful"} or {"status":"failure"}
 
 
-*Method: PUT
+* Method: PUT
 link: http://localhost.com/put.php
 curl command: curl -X PUT http://localhost.com/put.php -d id=2 name=Myname -d address=MyAddress -d email=MyEmail
 
 Response: {"status":"successful"} or {"status":"failure"}
 
-*Method: DELETE
+* Method: DELETE
 link: http://localhost.com/delete.php
 curl command: curl -X DELETE http://localhost.com/delete.php -d id=
 
