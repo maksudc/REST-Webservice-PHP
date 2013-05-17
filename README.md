@@ -11,7 +11,7 @@ One can easily understand the purpose of a webservice by simply looking at the u
 
 
 *method: GET
-link::  http://www.<your_host>.com/items
+link::  http://www.localhost.com/items
 
 returns all the items in database.
 
@@ -19,7 +19,7 @@ Response: {["id":"",...],[...],[..]}
 
 
 *method: GET
-link:: http://www.<your_host>.com/items/3
+link:: http://www.localhost.com/items/3
 
 returns 3rd item in database
 
@@ -27,7 +27,7 @@ Response: {"id":3,"name":"dsf"}
 
 
 *method: POST
-link:: http://www.<your_host>.com/item
+link:: http://www.localhost.com/item
 
 Would create a new Item into database 
 
@@ -35,7 +35,7 @@ Response: {"status":"successful"}
 
 
 *method: PUT
-link:: http://www.<your_host>.com/item
+link:: http://www.localhost.com/item
 
 Would update an Item into database 
 
@@ -43,7 +43,7 @@ Response: {"status":"successful"}
 
 
 *method: DELETE
-link:: http://www.<your_host>.com/item
+link:: http://www.localhost.com/item
 
 Would delete an Item from database 
 
